@@ -1,2 +1,10 @@
 Readme for the Greenhouse project
-Wow, this is a great project.
+The Greenhouse project consists of a raspberry pi device which has two sensors.
+One sensor is for temperature, the other for pressure.
+At a later stage we will add humidity.
+
+The Pi polls the sensors every minute and transmits the data to the Cloud.
+The Cloud service used is ThingSpeak.
+The advantage here is that the data can be accessed cleanly from any PC, tablet or mobile Phone.
+
+Development work is needed to work out how to add more sensors.
